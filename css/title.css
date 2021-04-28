@@ -73,11 +73,12 @@ h2 {
 
 .box-img-normal {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 786px;
     left: 0px;
     top: 90px;
 
-    background: no-repeat url(../assets/img/imagems.png);
+    background-image: url(../assets/img/imagems.png);
+    background-repeat: no-repeat;
     background-size: cover;
 }
