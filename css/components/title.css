@@ -1,4 +1,11 @@
-.box-title {
+h1 {
+    font-family: "Press Start 2P", cursive;
+    font-size: 40px;
+    color: #6bb18c;
+    text-shadow: 4px 4px 0px #000000;
+}
+
+/* .box-title {
     background: #3a4042;
     position: absolute;
     width: 627px;
@@ -81,4 +88,4 @@ h2 {
     background-image: url(../assets/img/imagems.png);
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
