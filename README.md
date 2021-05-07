@@ -6,4 +6,4 @@ Developing
 http://midorifukami.com.br/
 
 
-https://midori-fukami.github.io/midorifukami.github.io/
+https://midori-fukami.github.io
