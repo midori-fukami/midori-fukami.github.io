@@ -1,3 +1,47 @@
 nav {
     text-align: right;
 }
+
+.skills > div {
+    padding-top: 60px;
+}
+
+.row {
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+.row > div {
+    width: 50%;
+    padding: 0 50px;
+    display: flex;
+}
+
+.row > div > div {
+    flex-grow: 1;
+    padding-left: 25px;
+}
+
+.row > div > img {
+    width: 80px;
+    height: 90px;
+}
+
+.row p {
+    font-size: 25px;
+    margin: 0 0 16px;
+    color: #fff;
+    font-family: "Press Start 2P", sans-serif;
+}
+
+.border-bar {
+    border: 5px solid #000 !important;
+    background-color: #fff;
+}
+
+.bar {
+    height: 24px;
+    width: 20%;
+    background-color: #dc626f;
+}
