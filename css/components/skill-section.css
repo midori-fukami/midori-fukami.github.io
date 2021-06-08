@@ -1,0 +1,10 @@
+.skill-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #6bb18c;
+    border-bottom: 10px solid #dc626f;
+}
+
+.skill-section .main-title {
+    margin-bottom: 50px;
+}
