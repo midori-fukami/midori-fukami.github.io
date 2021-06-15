@@ -16,3 +16,11 @@
 .main-section.-bd-second {
     border-color: #6bb18c;
 }
+
+.main-section.-bg-red {
+    background-color: #dc626f;
+}
+
+.main-section.-bd-third {
+    border-color: #000;
+}
