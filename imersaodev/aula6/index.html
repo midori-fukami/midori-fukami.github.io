@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <h1>Classificação de cabritagem<span title="Cabritagem é como trolagem, só que pior">🤔</span></h1>
+    <section>
+        <input placeholder="Nome" />
+        <button onclick="addPlayer()">Add player</button>
+    </section>
+    <div class="alertinha">
+        <p>&nbsp;</p>
+    </div>
+    <div class="div-table">
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th title="Vitórias">V</th>
+                    <th title="Empates">E</th>
+                    <th title="Derrotas">D</th>
+                    <th>Pontos</th>
+                    <th colspan="3">Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <div class='legenda'>
+        <p>Vitória -> 3 pontos</p>
+        <p>Empate -> 1 ponto</p>
+        <p>Derrota -> -1 ponto</p>
+    </div>
+    <script src="site.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Super Trunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear cartas</button>
+        <p class="placar"><span class="verde">Jogador 0</span> | <span class="red">0 Máquina</span></p>
+
+        <form id="form">
+            <div class="div-section">
+                <section class="ativo" id="card-player">
+                    <h3>Emmy</h3>
+                    <img src="" id="img-player">
+                    <div><input type="radio" name="atributo" value="energia" id="energia"
+                            onclick="selectedRadio()"><label for="energia">Energia</label></input>
+                        <p data-energia></p>
+                    </div>
+                    <div><input type="radio" name="atributo" value="obediencia" id="obediencia"
+                            onclick="selectedRadio()"><label for="obediencia">Obediência</label></input>
+                        <p data-obediencia></p>
+                    </div>
+                    <div><input type="radio" name="atributo" value="cabritagem" id="cabritagem"
+                            onclick="selectedRadio()"><label for="cabritagem">Cabritagem</label></input>
+                        <p data-cabritagem></p>
+                    </div>
+                    <div><input type="radio" name="atributo" value="idade" id="idade" onclick="selectedRadio()"><label
+                            for="idade">Idade</label></input>
+                        <p data-idade></p>
+                    </div>
+                </section>
+                <div class="div-btn">
+                    <h2>Escolha o seu atributo</h2>
+                    <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+                    <button type="button" id="btnNext" onclick="next()" disabled="false">Próxima Rodada</button>
+                    <button type="button" id="btnResetar" onclick="resetarJogo()" disabled="false">Resetar</button>
+                    <p class='qtd-card-player'>Vc tem 0 cartas</p>
+                    <p class='qtd-card-pc'>PC tem 0 cartas</p>
+                </div>
+                <section class="ativo" id="card-pc">
+                    <h3>Loki</h3>
+                    <img src="https://i.ibb.co/XFc8D6Q/loki112.png" id="img-player">
+                    <div>
+                        <p>Energia</p>
+                        <p data-energia></p>
+                    </div>
+                    <div>
+                        <p>Obediência</p>
+                        <p data-obediencia></p>
+                    </div>
+                    <div>
+                        <p>Cabritagem</p>
+                        <p data-cabritagem></p>
+                    </div>
+                    <div>
+                        <p>Idade</p>
+                        <p data-idade></p>
+                    </div>
+                </section>
+            </div>
+        </form>
+    </div>
+
+    <div class="modal">
+        <div>
+            <p class="result"></p>
+        </div>
+    </div>
+
+    <div class="modal-backdrop" onclick="closeModal()">
+    </div>
+    <script src="site.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,233 @@
+body {
+    font-family: "Press Start 2P";
+    min-height: 854px;
+    background-color: #112233;
+    padding-bottom: 20vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #66cc99;
+    margin: 5px 0;
+}
+
+button {
+    padding: 0.8rem 1.5rem;
+    margin: 1rem 0;
+    border: 3px solid #44bbff;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #f0f1f5;
+    color: #112233;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+button[disabled],
+button[disabled]:hover {
+    color: #878b91;
+    background-color: #ccc;
+    transform: scale(1);
+    cursor: no-drop;
+}
+
+h2 {
+    color: white;
+}
+
+#carta-jogador {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 1.5rem;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.opcoes {
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-section {
+    display: flex;
+}
+
+section {
+    margin: 5px;
+    background-color: #eff7e0;
+    width: 250px;
+    padding: 5px;
+    border: 4px solid #cbe092;
+}
+
+section h3 {
+    margin: 7px 0;
+}
+
+section img {
+    object-fit: contain;
+    width: 100px;
+    height: 100px;
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    padding: 0 8px;
+}
+
+.div-btn {
+    width: 300px;
+}
+
+section#card-pc div {
+    justify-content: space-between;
+}
+
+section#card-player div input {
+    margin: 0 0 2px;
+}
+
+section#card-player div label {
+    margin: 0 10px;
+}
+
+section#card-player div p {
+    right: 0;
+    text-align: right;
+    width: 100%;
+}
+
+#card-pc,
+#card-player {
+    position: relative;
+}
+
+#card-pc.ativo:after,
+#card-player.ativo:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #eff7e0;
+    transition: 0.4s ease-out;
+}
+
+.result {
+    color: #000;
+    text-align: center;
+}
+
+.modal {
+    display: none;
+    z-index: 1;
+    padding: 10px;
+    width: 250px;
+    border: 3px solid #44bbff;
+    background-color: #f0f1f5;
+    margin: 0 auto;
+    height: 64px;
+}
+
+.modal.ativo {
+    overflow-x: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    opacity: 1;
+    z-index: 1072;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: opacity 0.15s linear;
+}
+
+.modal div {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.modal-backdrop {
+    display: none;
+    opacity: 0.5;
+    z-index: 1071;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    transition: opacity 0.15s linear;
+}
+
+p.placar {
+    color: #fff;
+    padding: 5px;
+    border: 3px solid #cbe092;
+    width: 370px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+p.qtd-card-player,
+span.verde {
+    color: #66cc99;
+}
+
+p.qtd-card-pc,
+span.red {
+    color: red;
+}
+
+.turn {
+    color: #fff;
+}

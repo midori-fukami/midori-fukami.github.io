@@ -1,0 +1,110 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    background-color: #1abc9c;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1 {
+    padding-top: 10px;
+    color: #d1d5d8;
+    text-align: center;
+}
+
+label {
+    margin-top: 5px;
+}
+
+input {
+    font-family: "Press Start 2P", cursive;
+    font-size: 14pt;
+    border: 3px solid #000;
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+    -webkit-appearance: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+li {
+    margin: 5px;
+}
+
+li:nth-child(1) {
+    color: #3498db;
+}
+
+li:nth-child(2) {
+    color: #f1c40f;
+}
+
+li:nth-child(3) {
+    color: #e74c3c;
+}
+
+img {
+    width: 250px;
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: center;
+    color: #f1c40f;
+}
+
+.modal-footer button,
+.modal-content,
+.btn-ok {
+    border-radius: 0;
+    border: 3px solid #000;
+    justify-content: center;
+}
+
+.modal-footer button {
+    background-color: #d1d5d8;
+    color: #000;
+}
+.modal-footer button:hover {
+    background-color: #b2b9be;
+    transform: scale(1.05);
+}
+
+p.result {
+    text-align: center;
+    font-size: 18px;
+    color: #1abc9c;
+}
+
+p.result.error {
+    color: #e74c3c;
+}
+
+.btn-ok {
+    margin: 3px;
+    background-color: #d1d5d8;
+}
+
+.btn-ok:hover {
+    background-color: #b2b9be;
+    transform: scale(1.05);
+}

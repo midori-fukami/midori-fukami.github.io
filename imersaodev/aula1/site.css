@@ -1,0 +1,58 @@
+body {
+    background-color: #bedfbe;
+    font-family: "Press Start 2P", cursive;
+  }
+  /*#F56F0A*/
+  
+  h1 {
+    color: green;
+    text-align: center;
+  }
+  
+  .div-dollar {
+    display: fixed;
+    flex-direction: column;
+  }
+  
+  .dolar-value {
+    margin: 5px;
+  }
+  
+  .div-real {
+    display: fixed;
+    flex-direction: column;
+  }
+  
+  .valor-convertido {
+    padding: 5px;
+    margin: 5px 19px;
+  }
+  
+  button {
+    font-family: inherit;
+    padding: 5px;
+    background-color: #f56f0a;
+    cursor: pointer;
+  }
+  
+  .div-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .div-button {
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  

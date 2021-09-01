@@ -1,0 +1,95 @@
+body {
+    font-family: "Press Start 2P", cursive;
+    background: url("https://oquartonerd.com.br/wp-content/uploads/2020/06/the-mentalist.jpg") no-repeat center center
+        fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position-x: -68px;
+    width: 100%;
+    overflow-x: hidden;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1,
+h4 {
+    color: #e4e4e4;
+    text-align: center;
+    -webkit-text-stroke: 0.7px black;
+}
+
+h4 {
+    margin: 5px;
+}
+
+section {
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #9da5a6;
+    border: 3px solid #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    font-family: inherit;
+    width: 100px;
+    border: 3px solid #000;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    font-family: inherit;
+    margin: 5px;
+    width: 110px;
+    padding: 5px;
+    background-color: #7fa66c;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+.modal-header,
+.modal-footer {
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal-title {
+    text-align: center;
+    color: #48ad01;
+}
+
+.modal-footer button,
+.modal-content,
+.btn-ok {
+    border-radius: 0;
+    border: 3px solid #000;
+    justify-content: center;
+}
+
+.modal-footer button {
+    background-color: #d1d5d8;
+    color: #000;
+}
+.modal-footer button:hover {
+    background-color: #b2b9be;
+    transform: scale(1.05);
+}
+
+p.result {
+    text-align: center;
+    font-size: 18px;
+    color: #1abc9c;
+}
+
+p.result.error {
+    color: #e74c3c;
+}

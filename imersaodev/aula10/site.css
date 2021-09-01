@@ -1,0 +1,78 @@
+body {
+    font-family: "Press Start 2P";
+    background-color: #97b088;
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+.insignias {
+    background-color: #ded7e6;
+    border: 4px solid #000;
+    padding: 15px 15px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+li {
+    background-color: #d4af61;
+    margin: 2px 0;
+    padding: 3px;
+    border: 2px solid #5b2314;
+}
+
+li:hover {
+    transform: scale(1.02);
+}
+
+a {
+    text-decoration: none;
+    color: #5b2314;
+}
+
+section {
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 15px;
+    max-width: 700px;
+    min-width: 640px;
+    border: 3px solid #5c9f97;
+    -webkit-box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.51);
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.51);
+}
+
+p {
+    font-size: 10pt;
+}
+
+header {
+    background-image: url("https://i.ibb.co/Zmbx02B/10485131-729229940471512-5083039949299681483-o.jpg");
+    background-size: cover;
+    height: 110px;
+    background-position: 0px -163px;
+}
+
+img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(-50%);
+    border: 8px solid #fff;
+}
+
+.network {
+    margin-top: 5px;
+    font-size: 22pt;
+    text-align: center;
+}

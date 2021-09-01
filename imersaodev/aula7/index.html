@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="site.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">Super Trunfo</h1>
+
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
+        <form id="form">
+            <div class="div-section">
+                <section class="ativo" id="card-player">
+                    <h3>Emmy</h3>
+                    <img src="https://play.nintendo.com/images/Masthead_yoshi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png"
+                        id="img-player">
+                    <div>
+                        <p>Energia</p>
+                        <p data-energia></p>
+                    </div>
+                    <div>
+                        <p>Obediência</p>
+                        <p data-obediencia></p>
+                    </div>
+                    <div>
+                        <p>Cabritagem</p>
+                        <p data-cabritagem></p>
+                    </div>
+                    <div>
+                        <p>Idade</p>
+                        <p data-idade></p>
+                    </div>
+                </section>
+                <section class="ativo" id="card-pc">
+                    <h3>Loki</h3>
+                    <img src="https://i.ibb.co/XFc8D6Q/loki112.png" id="img-player">
+                    <div>
+                        <p>Energia</p>
+                        <p data-energia></p>
+                    </div>
+                    <div>
+                        <p>Obediência</p>
+                        <p data-obediencia></p>
+                    </div>
+                    <div>
+                        <p>Cabritagem</p>
+                        <p data-cabritagem></p>
+                    </div>
+                    <div>
+                        <p>Idade</p>
+                        <p data-idade></p>
+                    </div>
+                </section>
+            </div>
+            <h2>Escolha o seu atributo</h2>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <p class="result"></p>
+        </form>
+    </div>
+    <script src="site.js"></script>
+</body>
+
+</html>
