@@ -24,15 +24,17 @@
 .node-card .logo {
     display: flex;
     align-items: center;
-    padding-top: 0;
-    height: 130px;
+    height: 140px;
     border: 5px solid #000000;
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color: #fff;
 }
 
 .node-card-.clean .logo {
     padding: 0;
 }
 
-.node-card.-first .logo {
-    background-color: #6BB18C;
+.node-card.-brq .logo {
+    background-color: #005f9c;
 }

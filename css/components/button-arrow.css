@@ -4,8 +4,6 @@
     background-color: #6bb18c;
     box-shadow: 5px 5px 0px #000;
     cursor: pointer;
-    position: absolute;
-    top: 0;
 }
 
 .button-arrow .content {
