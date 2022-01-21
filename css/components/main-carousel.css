@@ -40,3 +40,10 @@
 .main-carousel .button-arrow.-right {
     right: 15px;
 }
+
+.main-carousel .items {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    transform: translateX(400px);
+}
