@@ -20,6 +20,7 @@
 .main-carousel::before {
     content: '';
     position: absolute;
+    box-sizing: border-box;
     left: 0;
     top: 38px;
     display: block;
@@ -42,8 +43,12 @@
 }
 
 .main-carousel .items {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-carousel .elements {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    transform: translateX(400px);
+    transition: transform 100ms ease-in-out;
 }
