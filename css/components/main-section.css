@@ -2,7 +2,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
     background: #6bb18c;
-    border-bottom: 10px solid #dc626f;
+    border-bottom: 10px solid #85138F;
 }
 
 .main-section .main-title {
@@ -18,7 +18,7 @@
 }
 
 .main-section.-bg-red {
-    background-color: #dc626f;
+    background-color: #85138F;
 }
 
 .main-section.-bd-third {
