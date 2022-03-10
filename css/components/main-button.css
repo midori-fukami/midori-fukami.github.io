@@ -12,7 +12,15 @@
     text-decoration: none;
 }
 
-a.button:hover {
+.main-button:hover {
     transform: scale(1.08);
     opacity: 0.9;
+}
+
+.main-button.-full {
+    width: 100%;
+}
+
+.main-button.-full:hover {
+    transform: scale(0.99);
 }
